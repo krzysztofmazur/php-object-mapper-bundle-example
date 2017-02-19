@@ -1,0 +1,4 @@
+from: AppBundle\Model\SomeObject
+to: AppBundle\ViewModel\SomeObjectDto
+auto: true
+fields: []
