@@ -42,3 +42,6 @@ twig:
 km_object_mapper:
     configuration_locations:
         - path: "%kernel.root_dir%/Resources/mapper"
+          type: yml
+        - path: "%kernel.root_dir%/Resources/mapper"
+          type: xml

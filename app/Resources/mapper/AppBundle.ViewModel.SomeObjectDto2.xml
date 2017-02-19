@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mapping>
+    <from>AppBundle\Model\SomeObject</from>
+    <to>AppBundle\ViewModel\SomeObjectDto2</to>
+    <fields>
+        <area>getArea()</area>
+    </fields>
+</mapping>
