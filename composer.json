@@ -11,9 +11,6 @@
             "app/AppCache.php"
         ]
     },
-    "repositories": [
-        {"type": "vcs", "url":"https://github.com/krzysztofmazur/php-object-mapper-bundle.git"}
-    ],
     "require": {
         "php": ">=5.5.9",
         "symfony/symfony": "3.2.*",
@@ -24,7 +21,6 @@
         "incenteev/composer-parameter-handler": "^2.0",
         "twig/twig": "^1.0||^2.0",
         "krzysztofmazur/php-object-mapper-bundle": "dev-master",
-        "krzysztofmazur/php-object-mapper": "dev-master",
         "doctrine/instantiator": "^1.0"
     },
     "require-dev": {

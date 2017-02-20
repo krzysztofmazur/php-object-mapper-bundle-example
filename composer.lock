@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c6d543c2e3d4f5bd74b05619316a424",
+    "content-hash": "4e6015af7fb3514f8520765c3e02a440",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -512,16 +512,16 @@
         },
         {
             "name": "krzysztofmazur/php-object-mapper",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/krzysztofmazur/php-object-mapper.git",
-                "reference": "43b1c0fbf625dc4d7485145d88e93fdc2ecde38a"
+                "reference": "2c22acad9634cfe8e9a75d72e665d450ada8d4e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/krzysztofmazur/php-object-mapper/zipball/43b1c0fbf625dc4d7485145d88e93fdc2ecde38a",
-                "reference": "43b1c0fbf625dc4d7485145d88e93fdc2ecde38a",
+                "url": "https://api.github.com/repos/krzysztofmazur/php-object-mapper/zipball/2c22acad9634cfe8e9a75d72e665d450ada8d4e3",
+                "reference": "2c22acad9634cfe8e9a75d72e665d450ada8d4e3",
                 "shasum": ""
             },
             "require": {
@@ -557,7 +557,7 @@
             ],
             "description": "Object mapper for PHP, convert your Model to DTO objects",
             "homepage": "https://github.com/krzysztofmazur",
-            "time": "2017-02-19 00:22:15"
+            "time": "2017-02-20T11:32:52+00:00"
         },
         {
             "name": "krzysztofmazur/php-object-mapper-bundle",
@@ -565,19 +565,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/krzysztofmazur/php-object-mapper-bundle.git",
-                "reference": "42881d911c8f4c7db2480eb5caa3dcdb6016dfc9"
+                "reference": "588abfff6da2ee4bbc05b51e8260f0508e7eed39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/krzysztofmazur/php-object-mapper-bundle/zipball/42881d911c8f4c7db2480eb5caa3dcdb6016dfc9",
-                "reference": "42881d911c8f4c7db2480eb5caa3dcdb6016dfc9",
+                "url": "https://api.github.com/repos/krzysztofmazur/php-object-mapper-bundle/zipball/588abfff6da2ee4bbc05b51e8260f0508e7eed39",
+                "reference": "588abfff6da2ee4bbc05b51e8260f0508e7eed39",
                 "shasum": ""
             },
             "require": {
-                "krzysztofmazur/php-object-mapper": "dev-master",
+                "krzysztofmazur/php-object-mapper": "^0.1",
                 "php": ">=5.6.0",
                 "symfony/framework-bundle": "~2.3|~3.0",
                 "symfony/yaml": "~2.3|~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0"
             },
             "type": "library",
             "extra": {
@@ -610,7 +613,7 @@
                 "source": "https://github.com/krzysztofmazur/php-object-mapper-bundle/tree/master",
                 "issues": "https://github.com/krzysztofmazur/php-object-mapper-bundle/issues"
             },
-            "time": "2017-02-19 19:16:49"
+            "time": "2017-02-20 20:07:45"
         },
         {
             "name": "monolog/monolog",
@@ -1716,8 +1719,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "krzysztofmazur/php-object-mapper-bundle": 20,
-        "krzysztofmazur/php-object-mapper": 20
+        "krzysztofmazur/php-object-mapper-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
